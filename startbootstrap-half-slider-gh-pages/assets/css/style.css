@@ -1,0 +1,19 @@
+body {
+	background-color: 	#B8B8B8;
+}
+
+#globalheader {
+	height: 180px;
+	background-color: #0074D9;
+
+}
+
+#headerphonenumber { 
+	float: right;
+}
+
+#directory {
+	color: green;
+	
+}
+
