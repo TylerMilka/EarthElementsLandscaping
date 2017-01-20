@@ -1,22 +1,108 @@
 
+h1, h2, h3, h4, p, a,  {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1, h2, {
+	font-weight: bold;
+}
+
 body{
 	background-color: #cccccc;
 }
 
+/*footer{
+}*/
+
+#stepfooter{
+	background-color: #36456e;
+	height: 2px;
+	width: auto;
+}
+#footer{
+	background-color: #0076a3;
+	border-color: #36456e;
+	border-width: 4px;
+	width: 100%;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
 #nav{
-	background-color: #3483aa;
+	background-color: #0076a3;
+	border-color: #36456e;
+	border-width: 2px;
+	width: 100%;
 }
 
 #navoptions{
 	
 }
 
+#picture1 {
+	width: 100%;
+}
+
 #logo {
 	margin-left: 40%;
 	margin-right: 40%;
-	margin-top: 140px;
-	position: fixed;
+	margin-top: 92px;
+	position: absolute;
 	z-index: +1;
 	float: center;
-	
+	max-width:260px;
+	max-height:300px;
 }
+
+#freeestimates {
+	margin-left: 55px;
+	position: absolute;
+	z-index: +1;
+	margin-top: 50px;
+	transform: rotate(-20deg);
+	max-width:150px;
+	max-height:150px;
+}
+
+#logothumbnail{
+	max-height: 50px;
+	max-width: 50px;
+	text-align: center;
+	margin-left: 120px;
+	display: none;
+}
+
+.img-wrapper {
+ /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+
+#contentbox {
+	background-color: ;
+	border-color: #0076a3;
+	border-width: 2px;
+}
+
+#icons {
+	position: inline-text;
+	float: right;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+
+#logo {
+	display: none;
+
+}
+
+
+@media only screen (max-width: 768px) {
+
+@media  screen and (max-width: 600px) {
+
